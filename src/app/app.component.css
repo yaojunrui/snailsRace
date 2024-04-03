@@ -1,0 +1,62 @@
+.root_container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    margin-left: 10px;
+    flex: 1;
+}
+
+.race_area {
+    width: 100%;
+    height: 70%;
+    background-color: rgb(146, 216, 134);
+    display: flex;
+    flex-direction: column;
+}
+
+.race {
+    margin: 5px;
+    background-color: gold;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    flex: 1;
+}
+
+.race_num {
+    margin: 0 10px;
+    background-color: beige;
+    height: 150px;
+    width: 60px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.race_start {
+    height: 80%;
+    width: 20px;
+    background-color: red;
+}
+
+.race_road {
+    height: 80%;
+    flex: 1;
+    background-color: salmon;
+    display: flex;
+    align-items: center;
+}
+
+.race_end {
+    height: 80%;
+    width: 20px;
+    background-color: rgb(8, 127, 186);
+    right: 0px;
+    align-content: flex-end;
+    margin-right: 10px;
+}

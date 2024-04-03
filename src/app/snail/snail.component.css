@@ -1,0 +1,7 @@
+.snail {
+    height: 50px;
+    width: 50px;
+    background-color: aqua;
+    background-image: url("../../assets/snails.png");
+    background-size: cover;
+}
